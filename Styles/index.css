@@ -1,11 +1,128 @@
- .grid {
-     width: 100%;
-     height: 100%;
-     color: red;
- }
- 
- .body {
-     height: 100px;
-     width: 100px;
-     background-color: grey;
- }
+        body * {
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            align-content: center;
+        }
+        
+        .banner {
+            position: relative;
+            width: 90%;
+            margin: 0% auto;
+        }
+        
+        .banner img {
+            width: 100%;
+        }
+        
+        .heading {
+            color: whitesmoke;
+        }
+        
+        .container {
+            display: grid;
+            align-content: flex-end;
+            align-items: center;
+        }
+        
+        .item-item-1 .images {
+            width: 100%;
+            height: 100px;
+            align-content: center;
+        }
+        
+        h4 {
+            color: white;
+            align-items: center;
+        }
+        
+        p {
+            color: white;
+        }
+        
+        .search {
+            background-color: white;
+            color: black;
+        }
+        
+        button {
+            background-color: blue;
+        }
+        
+        .scroll-down {
+            color: white;
+        }
+        
+        .i-class {
+            color: white;
+        }
+        
+        .logo {
+            color: white;
+        }
+        
+        li {
+            color: white;
+        }
+        
+        .div-id {
+            color: white;
+        }
+        
+        img {
+            align-items: center;
+            align-content: center;
+        }
+        
+        p {
+            color: white;
+            align-items: center;
+        }
+        
+        .button-style {
+            background-color: blue;
+            color: white;
+        }
+        
+        section {
+            color: white;
+        }
+        
+        h3 {
+            color: white;
+        }
+        
+        h2 {
+            color: white;
+        }
+        
+        p {
+            color: white;
+        }
+        
+        .btn-btn_book {
+            color: white;
+            background-color: blue;
+        }
+        
+        h5 {
+            color: white;
+        }
+        
+        .footer-links {
+            background-color: black;
+            color: white;
+        }
+        
+        @media (max-width:320px) {
+            p {
+                font-size: 1.25 rem;
+            }
+        }
+        
+        @media (max-width:600px) {
+            p {
+                font-size: 1, 5 rem;
+                line-height: 1.5;
+            }
+        }
