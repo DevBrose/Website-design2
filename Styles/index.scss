@@ -1,0 +1,107 @@
+.picture 
+	background: url(..
+	background-repeat: no-repeat
+	background-size: cover
+	display: flex
+	justify-content: center
+	min-height: 100px
+	color: #fff
+	align-items: center
+	color: #fff
+
+.header--text 
+	color: #fff
+	align-content: center
+	text-align: end
+
+ 
+	color: white
+	&.header_links 
+		display: flex
+		align-items: flex-end
+		align-content: center
+		color: #fff
+	
+	&.box-2 
+		background: url(..
+		background-repeat: no-repeat
+		background-size: cover
+		display: flex
+		justify-content: center
+		min-height: 100vh
+		width: auto
+		color: #fff
+		align-items: center
+		text-transform: uppercase
+	
+	&.box-3 
+		background: url(..
+		background-repeat: no-repeat
+		background-size: cover
+		justify-content: center
+		min-height: 100vh
+		color: #fff
+		align-items: center
+	
+	&.box-4 
+		background: url(..
+		background-repeat: no-repeat
+		background-size: cover
+		justify-content: center
+		min-height: 100vh
+		width: 100%
+		color: #fff
+		align-items: center
+	
+	&.box-5 
+		background: url(..
+		background-repeat: no-repeat
+		background-size: cover
+		justify-content: center
+		min-height: 100vh
+		color: #fff
+		align-items: center
+	
+	&.left, &.right 
+		float: left
+		width: 20%
+	
+	&.main 
+		float: left
+		width: 60%
+	
+
+a:visited 
+	color: white
+
+a:hover 
+	color: white
+
+a:active 
+	color: white
+
+text 
+	color: #fff
+	align-content: center
+
+a:visited 
+	color: white
+
+a:hover 
+	color: white
+
+a:active 
+	color: white
+
+footer 
+	color: #fff
+	align-items: flex-start
+
+a:visited 
+	color: white
+
+a:active 
+	color: white
+
+media screen and (max-width: 800px) 
+	width: 100%
