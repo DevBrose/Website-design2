@@ -1,28 +1,28 @@
-.picture 
-	background: url(..
-	background-repeat: no-repeat
-	background-size: cover
-	display: flex
-	justify-content: center
-	min-height: 100px
-	color: #fff
-	align-items: center
-	color: #fff
+.picture {
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	min-height: 100px;
+	align-items: center;
+	color: #fff;
+}
 
-.header--text 
-	color: #fff
+ .header--text {
+	color:#fff
 	align-content: center
-	text-align: end
-
- 
-	color: white
-	&.header_links 
+	text-align: end;
+	
+}
+	
+	.header_links {
 		display: flex
 		align-items: flex-end
 		align-content: center
-		color: #fff
-	
-	&.box-2 
+		color:#fff;
+	}
+	&.box-2 {}
 		background: url(..
 		background-repeat: no-repeat
 		background-size: cover
@@ -72,7 +72,7 @@
 	
 
 a:visited 
-	color: white
+	color:
 
 a:hover 
 	color: white

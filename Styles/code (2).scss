@@ -1,135 +1,129 @@
+﻿$color_1: #fff;
+$color_2: white;
+$color_3: brown;
+$color_4: blue;
+$font-family_1: "josefin Sans";
+$font-family_2: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+$background-color_1: #5474fd;
+$background-color_2: none;
+
+/* Style the search field */
+/* Style the submit button */
+/* Clear floats */
+/* visited link */
+/* mouse over link */
+/* selected link */
+/* visited link */
+/* mouse over link */
+/* selected link */
+/* visited link */
+/* selected link */
+/* Use a media query to add a breakpoint at 800px: */
 .picture {
   background: url(../Images/image\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
+  display: grid;
   justify-content: center;
   min-height: 820px;
   width: 100%;
-  color: #fff;
+  color: $color_1;
   align-items: center;
-  color: #fff;
+  color: $color_1;
   letter-spacing: 3px;
 }
-
 .header--text {
   align-content: center;
   text-align: center;
-  color: white;
+  color: $color_2;
 }
-
 * {
   box-sizing: border-box;
 }
-
-/* Style the search field */
-form.example input[type="text"] {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 80%;
-  background: #f1f1f1;
+form.example {
+  input[type="text"] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196f3;
+    color: $color_2;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    &:hover {
+      background: #0b7dda;
+    }
+  }
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 }
-
-/* Style the submit button */
-form.example button {
-  float: left;
-  width: 20%;
-  padding: 10px;
-  background: #2196f3;
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none; /* Prevent double borders */
-  cursor: pointer;
-}
-
-form.example button:hover {
-  background: #0b7dda;
-}
-
-/* Clear floats */
-form.example::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .rectangle {
   width: 100%;
   height: 15px;
-  background-color: #5474fd;
+  background-color: $background-color_1;
 }
-
-/* visited link */
-a:visited {
-  color: white;
+a {
+  &:visited {
+    color: $color_2;
+    color: $color_2;
+    color: $color_4;
+  }
+  &:hover {
+    color: $color_2;
+    color: $color_3;
+  }
+  &:active {
+    color: $color_2;
+    color: $color_2;
+    color: $color_2;
+  }
 }
-
-/* mouse over link */
-a:hover {
-  color: white;
-}
-
-/* selected link */
-a:active {
-  color: white;
-}
-
 text {
-  color: #fff;
+  color: $color_1;
   align-content: center;
 }
-
 .Reason {
   font-size: large;
-  color: #fff;
-  font-family: "josefin Sans";
+  color: $color_1;
+  font-family: $font-family_1;
   position: absolute;
   left: 500px;
   top: 700px;
 }
-
-/* visited link */
-a:visited {
-  color: white;
-}
-
-/* mouse over link */
-a:hover {
-  color: brown;
-}
-
-/* selected link */
-a:active {
-  color: white;
-}
-
 .box-2 {
   background: url(../Images/Rectangle\ 41444.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  display: flex;
+  display: grid;
   justify-content: center;
   height: 885px;
   width: auto;
-  color: #fff;
+  color: $color_1;
   align-items: center;
   text-transform: uppercase;
-  font-family: "josefin Sans";
+  font-family: $font-family_1;
   text-align: left;
 }
-
 .text-block {
   position: relative;
   display: inline-block;
   margin-left: 20%;
   padding-left: 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: $font-family_2;
 }
-
 .mountain {
   background: url(../Images/mountain.png);
   background-repeat: no-repeat;
@@ -138,82 +132,66 @@ a:active {
   position: relative;
   left: 800px;
 }
-
 .container {
   fill: #5474fd;
 }
-
 .box-3 {
   background: url(../Images/Background2.png);
-  display: flex;
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
-  color: #fff;
+  color: $color_1;
   align-items: center;
   height: 685px;
 }
-
 .box-4 {
   background: url(../Images/Rectangle\ 41445.png);
-  display: flex;
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
   min-height: 100vh;
   width: 100%;
-  color: #fff;
+  color: $color_1;
   align-items: center;
 }
-
 .box-5 {
   background: url(../Images/Rectangle\ 4142\ 1.png);
-  display: flex;
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
   min-height: 100vh;
-  color: #fff;
+  color: $color_1;
   align-items: center;
 }
-
 footer {
-  color: #fff;
+  color: $color_1;
   align-items: center;
 }
-
-/* visited link */
-a:visited {
-  color: blue;
+.left {
+  float: left;
+  width: 20%;
 }
-
-/* selected link */
-a:active {
-  color: white;
-}
-
-.left,
 .right {
   float: left;
-  width: 20%; /* The width is 20%, by default */
+  width: 20%;
 }
-
 .main {
   float: left;
-  width: 60%; /* The width is 60%, by default */
+  width: 60%;
 }
-
-/* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
-  .left,
-  .main,
+  .left {
+    width: 100%;
+  }
+  .main {
+    width: 100%;
+  }
   .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    width: 100%;
   }
 }
-
 @media screen and (min-width: 480px) {
   body {
-    background-color: none;
+    background-color: $background-color_2;
   }
 }
