@@ -12,6 +12,17 @@
   letter-spacing: 3px;
 }
 
+#rectangle {
+  width: 1770px;
+  height: 80px;
+  background: #5474fd;
+  align-content: center;
+}
+
+button {
+  background-color: #2196f3;
+}
+
 .header--text {
   align-content: center;
   text-align: center;
@@ -20,6 +31,11 @@
 
 * {
   box-sizing: border-box;
+}
+
+h4 {
+  display: flex;
+  align-items: center;
 }
 
 /* Style the search field */
@@ -57,9 +73,10 @@ form.example::after {
 }
 
 .rectangle {
-  width: 100%;
-  height: 15px;
+  width: 2px;
+  height: 2px;
   background-color: #5474fd;
+  text-align: center;
 }
 
 /* visited link */
@@ -80,15 +97,6 @@ a:active {
 text {
   color: #fff;
   align-content: center;
-}
-
-.Reason {
-  font-size: large;
-  color: #fff;
-  font-family: "josefin Sans";
-  position: absolute;
-  left: 500px;
-  top: 700px;
 }
 
 /* visited link */
@@ -139,28 +147,23 @@ a:active {
   left: 800px;
 }
 
-.container {
-  fill: #5474fd;
-}
-
 .box-3 {
-  background: url(../Images/Background2.png);
+  background: url(../Images/hotel.png);
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
   color: #fff;
   align-items: center;
-  height: 685px;
 }
 
 .box-4 {
-  background: url(../Images/Rectangle\ 41445.png);
+  background: url(../Images/sea.png);
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 100px;
   width: 100%;
   color: #fff;
   align-items: center;
@@ -168,18 +171,39 @@ a:active {
 
 .box-5 {
   background: url(../Images/Rectangle\ 4142\ 1.png);
-  display: flex;
+  display: grid;
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
   min-height: 100vh;
   color: #fff;
   align-items: center;
+  text-align: center;
 }
 
-footer {
+.Symbols {
+  background: url(../Images/Symbols.png);
+  display: flex;
+  text-align: center;
+  align-content: center;
+  height: 239px;
+  width: 1746px;
+}
+
+.rectangle-footer {
+  background-color: #333333;
   color: #fff;
+  text-align: center;
+}
+
+.Looking {
   align-items: center;
+}
+
+.social-media {
+  text-align: center;
+  color: #fff;
+  align-content: center;
 }
 
 /* visited link */
@@ -212,7 +236,7 @@ a:active {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 360px) {
   body {
     background-color: none;
   }
