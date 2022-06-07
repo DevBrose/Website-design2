@@ -4,8 +4,8 @@
   background-size: cover;
   display: flex;
   justify-content: center;
-  min-height: 820px;
-  width: 100%;
+  height: 821px;
+  max-width: 1773px;
   color: #fff;
   align-items: center;
   color: #fff;
@@ -17,39 +17,95 @@
   height: 80px;
   background: #5474fd;
   align-content: center;
+  color: #fff;
 }
 
-button {
+.scroll {
+  color: #fff;
+  height: 46px;
+  width: 108px;
+}
+
+/*.button {
   background-color: #2196f3;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Aleo", serif;
+  text-transform: capitalize;
 }
-
-.header--text {
-  align-content: center;
-  text-align: center;
+*/
+/*
+.header-links {
+  align-content: right;
+  text-align: right;
   color: white;
 }
+*/
 
-* {
-  box-sizing: border-box;
+h3 {
+  align-content: center;
+  color: #fff;
 }
-
 h4 {
   display: flex;
   align-items: center;
 }
-
-/* Style the search field */
+/*
+/* Style the search field 
 form.example input[type="text"] {
   padding: 10px;
   font-size: 17px;
   border: 1px solid grey;
   float: left;
   width: 80%;
-  background: #f1f1f1;
+  background: red;
+}
+*/
+/* Style the search field */ /*
+.Search-search-button {
+  padding: 1px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: right;
+  width: 80%;
+  background-color: #2196f3;
+}*/
+
+.btn__explore {
+  display: flex;
+  /*float: left;*/
+  width: 228px;
+  height: 63px;
+  /*padding: 10px;*/
+  background: #2196f3;
+  color: white;
+  font-family: "Aleo", serif;
+  font-size: 16px;
+  text-align: left;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  transition-duration: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  border: none;
+
+  /*border: 1px solid grey;*/
+  /*border-left: none; /* Prevent double borders */
+  cursor: pointer;
 }
 
-/* Style the submit button */
-form.example button {
+li {
+  display: block;
+  float: right;
+  /*text-align: right;*/
+  padding: 5px;
+  /*align-content: flex-end;*/
+}
+
+/*
+/* Style the submit button -- OBS byt namn från form.example button
+button {
   float: left;
   width: 20%;
   padding: 10px;
@@ -57,72 +113,165 @@ form.example button {
   color: white;
   font-size: 17px;
   border: 1px solid grey;
-  border-left: none; /* Prevent double borders */
+  border-left: none; /* Prevent double borders
+  cursor: pointer;
+}
+*/
+button {
+  /*float: left;*/
+  width: 228px;
+  height: 63px;
+  /*padding: 10px;*/
+  background: #2196f3;
+  color: white;
+  font-family: "Aleo", serif;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition-duration: 0.4s;
+  /*border: 1px solid grey;*/
+  /*border-left: none; /* Prevent double borders */
   cursor: pointer;
 }
 
+.Search-search {
+  /*float: left;*/
+  width: 200px;
+  height: 100px;
+  /*padding: 10px;*/
+  background: #2196f3;
+  color: white;
+  font-family: "Aleo", serif;
+  font-size: 16px;
+  text-align: center;
+  transition-duration: 0.4s;
+  border: #fff;
+  /*border: 1px solid grey;*/
+  /*border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.social-media {
+  text-align: center;
+  color: white;
+  align-content: space-between 10px;
+}
+
+/*
+.social-media:hover {
+  background-color: blue; /* Green */
+/*
+}
+*/
+/* Style the submit button */
+/*
 form.example button:hover {
   background: #0b7dda;
 }
-
+*/
 /* Clear floats */
 form.example::after {
   content: "";
   clear: both;
   display: table;
 }
-
+/*
 .rectangle {
   width: 2px;
   height: 2px;
   background-color: #5474fd;
   text-align: center;
 }
+*/
+/* link color normal state */
+a {
+  /*background-color: blue;*/
+  color: white;
+  text-decoration: none;
+  /*align-content: flex-end;*/
+}
 
-/* visited link */
+/* visited link 
 a:visited {
-  color: white;
+  color: green;
 }
-
-/* mouse over link */
+*/
+/* mouse over link 
 a:hover {
-  color: white;
+  /* color: white;
+  background-color: red;
 }
-
-/* selected link */
+*/
+/* selected link 
 a:active {
   color: white;
 }
-
+*/
 text {
   color: #fff;
   align-content: center;
+  height: 63px;
+  max-width: 503px;
+}
+form {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  /* max-width: 41rem;*/
+  width: 503px;
+  padding: 0.1rem;
+  height: 63px;
+  text-align: center;
+  margin: 1rem;
+  border: none;
+}
+input {
+  flex-grow: 2;
+  border: none;
+  max-width: 31rem;
+  font-size: 1.4rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  color: #999999;
+  font-size: 0.8rem;
+  line-height: 0px;
 }
 
-/* visited link */
+/*
+/* visited link */ /*
 a:visited {
   color: white;
 }
-
+*/
 /* mouse over link */
 a:hover {
-  color: brown;
+  color: #5474fd;
+  visibility: visible;
+  opacity: 1;
+  /*color: blue;*/
 }
 
-/* selected link */
+/* selected link 
 a:active {
   color: white;
 }
-
+*/
 .box-2 {
-  background: url(../Images/Rectangle\ 41444.png);
+  background: url(../Images/city.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
+
   display: flex;
   justify-content: center;
-  height: 885px;
-  width: auto;
+  height: 685px;
+  width: 1770px;
   color: #fff;
   align-items: center;
   text-transform: uppercase;
@@ -137,7 +286,6 @@ a:active {
   padding-left: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
 .mountain {
   background: url(../Images/mountain.png);
   background-repeat: no-repeat;
@@ -147,38 +295,110 @@ a:active {
   left: 800px;
 }
 
-.box-3 {
+.Spain {
   background: url(../Images/hotel.png);
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
-  justify-content: center;
-  color: #fff;
-  align-items: center;
+  height: 700px;
+  width: 1757px;
+  /*padding-bottom: 50px;*/
+
+  /*justify-content: center;*/
+  /*color: #fff;*/
+  /* align-items: center;*/
 }
 
-.box-4 {
+.Spain2 {
   background: url(../Images/sea.png);
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
-  justify-content: center;
-  min-height: 100px;
-  width: 100%;
-  color: #fff;
-  align-items: center;
+  height: 700px;
+  /*padding-bottom: 50px;*/
+
+  /*justify-content: center;*/
+  /*height: 500px;*/
+  width: 1770px;
+  /*color: #fff;
+  align-items: center;*/
 }
 
 .box-5 {
-  background: url(../Images/Rectangle\ 4142\ 1.png);
-  display: grid;
-  background-repeat: no-repeat;
+  background: url(../Images/Sambackground.png);
+  display: flex;
+  column-gap: 10px;
+  height: 731px;
+  width: 1770px;
+  color: #ffff;
+
+  /* background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
   min-height: 100vh;
   color: #fff;
   align-items: center;
   text-align: center;
+  */
+}
+.Sam {
+  height: 100px;
+  background: none;
+  margin-top: 100px;
+}
+/*
+button {
+  //float: left;//
+  width: 228px;
+  height: 63px;
+  //padding: 10px;//
+  background: #2196f3;
+  color: white;
+  font-family: "Aleo", serif;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition-duration: 0.4s;
+  //border: 1px solid grey;//
+  /*border-left: none; // Prevent double borders //
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #4caf50; // Green //
+  color: white;
+}
+*/
+.Spain-text {
+  width: 540px;
+  height: 371px;
+  margin-left: 22%;
+  margin-top: 185px;
+  background-color: black;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  opacity: 0.8;
+  padding-left: 25px;
+  /*margin: 25px;*/
+
+  /*padding: 20px; */
+}
+.Spain-text-2 {
+  max-width: 540px;
+  height: 371px;
+  margin-left: 50%;
+  margin-top: 230px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  padding-left: 25px;
+  color: #fff;
+  background-color: black;
+
+  opacity: 0.8;
+  /*margin: 25px;*/
+
+  /*padding: 20px; */
 }
 
 .Symbols {
@@ -202,16 +422,51 @@ a:active {
 
 .social-media {
   text-align: center;
+  list-style: none;
   color: #fff;
-  align-content: center;
+  /*text-shadow: #fff;*/
+  align-content: stretch 10px;
 }
 
-/* visited link */
+.Sam-text {
+  width: 668px;
+  height: 284px;
+  margin-left: 22%;
+  margin-top: 185px;
+  background-color: black;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  opacity: 0.8;
+  padding-left: 25px;
+}
+
+.font {
+  display: flex;
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  opacity: 0.8;
+  float: left;
+  align-items: left;
+  /*text-align: left;*/
+}
+
+p.citat:first-letter {
+  /*font-variant-alternates: "fa-solid fa-quote-left";*/
+  font-size: 100px;
+  display: block;
+  float: left;
+  line-height: 0, 5;
+  /*margin: 15px 15px 10px 0;*/
+}
+
+/* visited link 
 a:visited {
-  color: blue;
+  color: white;
 }
 
-/* selected link */
+/* selected link 
 a:active {
   color: white;
 }
@@ -219,25 +474,38 @@ a:active {
 .left,
 .right {
   float: left;
-  width: 20%; /* The width is 20%, by default */
+  width: 20%; /* The width is 20%, by default 
 }
+*/
 
-.main {
-  float: left;
-  width: 60%; /* The width is 60%, by default */
-}
-
-/* Use a media query to add a breakpoint at 800px: */
-@media screen and (max-width: 800px) {
-  .left,
-  .main,
-  .right {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+@media screen and (max-width: 600px) {
+  .picture {
+    max-width: 100%;
   }
-}
-
-@media screen and (min-width: 360px) {
-  body {
-    background-color: none;
+  form {
+    flex-direction: column;
+    text-align: center;
+  }
+  .logo {
+    max-width: 90%;
+  }
+  .box-2 {
+    max-width: 90%;
+    margin: 4%;
+  }
+  .boathouse {
+    max-width: 100%;
+  }
+  .Symbols {
+    max-width: 100%;
+  }
+  .Spain {
+    font-size: 18px;
+  }
+  .Looking {
+    flex-direction: column;
+  }
+  .Sam-text {
+    max-width: 60%;
   }
 }
